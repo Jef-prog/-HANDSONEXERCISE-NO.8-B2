@@ -1,0 +1,37 @@
+*{
+    margin: 0% ;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background: gold;
+}
+.h1{
+    display: block;
+    background-color: gold;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.content{
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.content .card{
+    flex: 1;
+    background: pink;
+    right: 10px 10px;
+
+
+}
